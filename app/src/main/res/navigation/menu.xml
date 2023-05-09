@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/main"
-        android:name="com.example.coursework.main"
+        android:name="com.example.coursework.FragMain"
         android:label="@string/title_main"
         tools:layout="@layout/fragment_main" >
 
