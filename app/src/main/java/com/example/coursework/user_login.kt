@@ -1,16 +1,13 @@
 package com.example.coursework
 
 import android.os.Bundle
-import android.text.Layout
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import androidx.constraintlayout.widget.ConstraintSet
-import androidx.fragment.app.FragmentTransaction
 
-class FragProfile : Fragment() {
+
+class user_login : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,19 +21,16 @@ class FragProfile : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frag_profile, container, false)
+        return inflater.inflate(R.layout.fragment_user_login, container, false)
     }
 
     companion object {
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FragProfile().apply {
+            user_login().apply {
                 arguments = Bundle().apply {
 
                 }
             }
-    }
-    private fun showRegistration(){
-
     }
 }

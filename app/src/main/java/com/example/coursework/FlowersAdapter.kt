@@ -43,5 +43,7 @@ class FlowersViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val image: ImageView =itemView.findViewById(R.id.ivPhoto)
         //подгрузка фото из url
         Glide.with(itemView.context).load(product.photoURL).into(image)
+        val price:  TextView =itemView.findViewById(R.id.tvPrice)
+        price.text = product.price
     }
 }

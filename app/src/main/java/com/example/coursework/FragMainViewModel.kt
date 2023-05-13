@@ -7,7 +7,7 @@ import com.example.coursework.model.Product
 
 class FragMainViewModel : ViewModel() {
     val towns =
-        arrayOf("Москва", "Санкт-Петербург", "Новосибирск", "Екатеринбург", "Нижний Новгород")
+        arrayOf("Казань", "Набережные Челны", "Альметьевск")
     private val _flowers: MutableLiveData<List<Product>> = MutableLiveData()
     val flowers: LiveData<List<Product>> get() = _flowers
 
@@ -18,49 +18,49 @@ class FragMainViewModel : ViewModel() {
     private fun loadFlowers() {
         val flowersList = listOf(
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет из 11 белых хризантем",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketiz11belyhhrizantem-0-large.webp",
+                "2200 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет из 7 кустовых роз",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketizkustovyhrozovyhroz-0-large.webp",
+                "2380 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет из 11 гипосфил",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketiz11belyhgipsofil-0-large.webp",
+                "2899 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет из 7 роз Эквадор",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketizbelyhrozekvador0sm-0-large.webp",
+                "2200 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет из сухоцветов",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketpuhovyepolya-0-large.webp",
+                "2070 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Композиция в коробке 'Мировозрение'",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/czvety-v-korobke-mirovozzrenie-large.webp",
+                "2650 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Сборный букет с пионами",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/buketvesennienoty-0-large.webp",
+                "2850 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Букет с нежно-розовыми тюльпанами",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/tyulpany-nezhno-rozovye-large.webp",
+                "2300 руб."
             ),
             Product(
-                "Роза",
-                "https://cdn.leroymerlin.ru/lmru/image/upload/v1671106651/b_white,c_pad,d_photoiscoming.png,f_auto,h_600,q_auto,w_600/lmcode/zWizpMpjCUWp-5M5HK0MiA/82895031_04.png",
-                100.00
+                "Композиция в корзине 'Чтобы все упали'",
+                "https://zelenodolsk.flowlove.ru/wp-content/themes/init/catalog/images/products/korzina-s-czvetami-lunnyj-zakat-large.webp",
+                "5000 руб."
             )
         )
 
